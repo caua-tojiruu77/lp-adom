@@ -39,7 +39,7 @@ const testimonials = [
 
 const SliderTestimonials = () => {
   return (
-    <section className="relative bg-brand-400">
+    <section className="relative bg-brand-400 overflow-x-hidden">
       <div className="container flex flex-col md:flex-row items-center gap-9">
         {/* Imagem do lado esquerdo */}
         <div className="w-full md:w-1/2">

@@ -53,7 +53,7 @@ const ContactForm = () => {
 
   return (
     <section>
-      <div className="container p-7 z-10 bg-brand-300 rounded-lg flex flex-col md:flex-row items-center gap-8">
+      <div className="container p-12 z-10 bg-brand-300 rounded-lg flex flex-col md:flex-row items-center gap-8">
         <form onSubmit={handleSubmit(onSubmit)} className="w-full md:w-1/2">
           <div className="mb-4 text-center md:text-left">
             <h2 className="mainTitle">Fale Conosco</h2>
